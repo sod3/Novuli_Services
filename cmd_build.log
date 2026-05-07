@@ -1,0 +1,396 @@
+
+> novuliservices-next@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Hp\Desktop\NovuliSurvices\novuliservices\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Hp\Desktop\NovuliSurvices\novuliservices\novuliservices-next\package-lock.json
+
+▲ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+
+> Build error occurred
+Error: Turbopack build failed with 20 errors:
+./novuliservices-next/components/ToolRegistry.js:4:19
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m2 |[0m ...
+  [90m3 |[0m ...[36mnst[0m [33mToolComponents[0m = {
+[31m[1m>[0m [90m4 |[0m ...[32mto-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m  |[0m             [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m5 |[0m ...[32m-word"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFToWord'[0m), { ssr: [36mfalse[0m }),
+  [90m6 |[0m ...[32mo-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m7 |[0m ...[32mound-remover"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfals.[0m..
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:5:18
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m3 |[0m ...[36mconst[0m [33mToolComponents[0m = {
+  [90m4 |[0m ...[32me-to-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageToPDF'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m5 |[0m ...[32mto-word"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFToWord'[0m), { ssr: [36mfalse[0m }),
+  [90m  |[0m              [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m6 |[0m ...[32m-to-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m7 |[0m ...[32mground-remover"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfa...[0m
+  [90m8 |[0m ...[32mode-generator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m...
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:6:18
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m4 |[0m ...[32me-to-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m5 |[0m ...[32mto-word"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFToWord'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m6 |[0m ...[32m-to-pdf"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m  |[0m              [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m7 |[0m ...[32mground-remover"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfa...[0m
+  [90m8 |[0m ...[32mode-generator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m...
+  [90m9 |[0m ...[32mme-builder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:7:25
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m 5 |[0m ...namic(() => [36mimport[0m([32m'@/components/tools/PDFToWord'[0m), { ssr: [36mfalse[0m }),
+  [90m 6 |[0m ...namic(() => [36mimport[0m([32m'@/components/tools/WordToPDF'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m 7 |[0m ...[32mer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m         [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 8 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m 9 |[0m ... dynamic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m10 |[0m ...[32m-tool"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:8:24
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m 6 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/WordToPDF'[0m), { ssr: [36mfalse[0m }),
+  [90m 7 |[0m ...[32mover"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m 8 |[0m ...[32mtor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[32m"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m10 |[0m ...[32mch-tool"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfalse[0m }),
+  [90m11 |[0m ...[32mer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:9:21
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m 7 |[0m ...[32m-remover"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BackgroundRemover'[0m), { ssr: [36mfalse[0m }),
+  [90m 8 |[0m ...[32mnerator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m 9 |[0m ...[32mlder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m           [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ...[32msearch-tool"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfa...[0m
+  [90m11 |[0m ...[32mhecker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m12 |[0m ...[32meed-checker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfa...[0m
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:10:28
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m 8 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/QRCodeGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m 9 |[0m ...amic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m10 |[0m ...[32ml"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m        [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m ...ynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m12 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m13 |[0m ...ynamic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:11:23
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m 9 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ResumeBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m10 |[0m ...[32mrch-tool"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfalse[0m...
+[31m[1m>[0m [90m11 |[0m ...[32mker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m ...[32m-checker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfalse[0m...
+  [90m13 |[0m ...[32mols"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+  [90m14 |[0m ...[32mrator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:12:28
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m10 |[0m ...[32ml"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/KeywordResearchTool'[0m), { ssr: [36mfalse[0m }),
+  [90m11 |[0m ...ynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m12 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m        [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m13 |[0m ...ynamic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+  [90m14 |[0m ... dynamic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m15 |[0m ...[32mder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:13:23
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m11 |[0m ...[32mker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/BacklinkChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m12 |[0m ...[32m-checker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfalse[0m...
+[31m[1m>[0m [90m13 |[0m ...[32mols"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m14 |[0m ...[32mrator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m15 |[0m ...[32mre-builder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ssr: [36mf...[0m
+  [90m16 |[0m ...[32mator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:14:25
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m12 |[0m ...[32mecker"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WebsiteSpeedChecker'[0m), { ssr: [36mfalse[0m }),
+  [90m13 |[0m ...[32m"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m14 |[0m ...[32mor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m         [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m15 |[0m ...[32mbuilder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ssr: [36mfals.[0m..
+  [90m16 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m17 |[0m ...ynamic(() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:15:30
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m13 |[0m ...mic(() => [36mimport[0m([32m'@/components/tools/AIWritingTools'[0m), { ssr: [36mfalse[0m }),
+  [90m14 |[0m ...namic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m15 |[0m ...[32m"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m       [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m16 |[0m ...amic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m17 |[0m ...() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m18 |[0m ...mic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:16:24
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m14 |[0m ...[32mtor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/MetaTagGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m15 |[0m ...[32m-builder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ssr: [36mfal..[0m.
+[31m[1m>[0m [90m16 |[0m ...[32mor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m         [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m17 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m18 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+  [90m19 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:17:19
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m15 |[0m ...[32mignature-builder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/EmailSignatureBuilder'[0m), { ...
+  [90m16 |[0m ...[32m-generator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m17 |[0m ...[32milder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m            [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m18 |[0m ...[32mompressor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+  [90m19 |[0m ...[32munter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+  [90m20 |[0m ...[32malyzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:18:23
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m16 |[0m ...[32mator"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/InvoiceGenerator'[0m), { ssr: [36mfalse[0m }),
+  [90m17 |[0m ...: dynamic(() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m18 |[0m ...[32msor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m19 |[0m ...: dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+  [90m20 |[0m ...[32m"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m21 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:19:19
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m17 |[0m ...[32milder"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/FormBuilder'[0m), { ssr: [36mfalse[0m }),
+  [90m18 |[0m ...[32mompressor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m19 |[0m ...[32munter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m            [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m20 |[0m ...[32malyzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m21 |[0m ...[32mger"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+  [90m22 |[0m ...[32m-rewriter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AITextRewriter'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:20:20
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m18 |[0m ...[32mpressor"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/ImageCompressor'[0m), { ssr: [36mfalse[0m }),
+  [90m19 |[0m ...[32mter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m20 |[0m ...[32myzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m           [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m21 |[0m ...[32mr"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+  [90m22 |[0m ...[32mewriter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AITextRewriter'[0m), { ssr: [36mfalse[0m }),
+  [90m23 |[0m ...[32mzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/SEOAnalyzer'[0m), { ssr: [36mfalse[0m }),
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:21:17
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m19 |[0m ...[32m-counter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/WordCounter'[0m), { ssr: [36mfalse[0m }),
+  [90m20 |[0m ...[32m-analyzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m21 |[0m ...[32mmerger"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m             [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m22 |[0m ...[32mext-rewriter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AITextRewriter'[0m), { ssr: [36mfalse[0m }),
+  [90m23 |[0m ...[32manalyzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/SEOAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m24 |[0m ...
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:22:23
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m20 |[0m ...[32m"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/TextAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m21 |[0m ...dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m22 |[0m ...[32mter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AITextRewriter'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m          [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m23 |[0m ...: dynamic(() => [36mimport[0m([32m'@/components/tools/SEOAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m24 |[0m ...
+  [90m25 |[0m ...
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+./novuliservices-next/components/ToolRegistry.js:23:19
+`ssr: false` is not allowed with `next/dynamic` in Server Components. Please move it into a Client Component.
+  [90m21 |[0m ...[32mger"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/PDFMerger'[0m), { ssr: [36mfalse[0m }),
+  [90m22 |[0m ...[32m-rewriter"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/AITextRewriter'[0m), { ssr: [36mfalse[0m }),
+[31m[1m>[0m [90m23 |[0m ...[32mlyzer"[0m: dynamic(() => [36mimport[0m([32m'@/components/tools/SEOAnalyzer'[0m), { ssr: [36mfalse[0m }),
+  [90m   |[0m            [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m24 |[0m ...
+  [90m25 |[0m ...
+
+Ecmascript file had an error
+
+Import trace:
+  Server Component:
+    ./novuliservices-next/components/ToolRegistry.js
+    ./novuliservices-next/app/tools/[toolId]/page.js
+
+
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:4:19)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:5:18)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:6:18)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:7:25)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:8:24)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:9:21)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:10:28)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:11:23)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:12:28)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:13:23)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:14:25)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:15:30)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:16:24)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:17:19)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:18:23)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:19:19)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:20:20)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:21:17)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:22:23)
+    at <unknown> (./novuliservices-next/components/ToolRegistry.js:23:19)

@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.novulisurvices.com/sitemap.xml
+Host: https://www.novulisurvices.com

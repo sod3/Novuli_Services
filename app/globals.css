@@ -1,0 +1,113 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --font-display: 'Poppins', sans-serif;
+
+  --color-primary: #111827;
+  --color-secondary: #6B7280;
+  --color-accent: #2563EB;
+  --color-success: #10B981;
+  --color-bg-gray: #F9FAFB;
+  --color-border-light: #E5E7EB;
+
+  --animate-fade-in: fadeIn 0.5s ease-in-out;
+  --animate-slide-up: slideUp 0.6s ease-out;
+  --animate-pulse-slow: pulse 3s infinite;
+  --animate-float: float 3s ease-in-out infinite;
+}
+
+@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+@keyframes slideUp { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes float { 0%, 100% { transform: translateY(0px); } 50% { transform: translateY(-10px); } }
+
+html { scroll-behavior: smooth; }
+
+body {
+  background-color: #FFFFFF;
+  color: #111827;
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 { font-family: var(--font-display); }
+::selection { background: rgba(37, 99, 235, 0.2); color: #111827; }
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #F9FAFB; }
+::-webkit-scrollbar-thumb { background: #E5E7EB; border-radius: 10px; }
+::-webkit-scrollbar-thumb:hover { background: #D1D5DB; }
+
+/* Reusable component classes */
+.btn-primary {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: #2563EB; color: white; font-weight: 600;
+  padding: 0.75rem 1.5rem; border-radius: 0.5rem;
+  transition: all 0.2s; border: none; cursor: pointer;
+}
+.btn-primary:hover { background: #1d4ed8; box-shadow: 0 4px 12px rgba(37,99,235,0.3); }
+.btn-primary:active { transform: scale(0.97); }
+
+.btn-secondary {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: #F9FAFB; color: #111827; font-weight: 600;
+  padding: 0.75rem 1.5rem; border-radius: 0.5rem;
+  border: 1px solid #E5E7EB; transition: all 0.2s; cursor: pointer;
+}
+.btn-secondary:hover { background: #F3F4F6; }
+
+.card {
+  background: white; border: 1px solid #E5E7EB; border-radius: 0.75rem;
+  padding: 1.5rem; box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+  transition: all 0.3s;
+}
+.card:hover { box-shadow: 0 10px 30px rgba(0,0,0,0.08); transform: translateY(-2px); }
+
+.input-field {
+  width: 100%; background: white; border: 1px solid #E5E7EB;
+  color: #111827; border-radius: 0.5rem; padding: 0.75rem 1rem;
+  font-size: 0.875rem; transition: all 0.2s; outline: none;
+}
+.input-field:focus { border-color: #2563EB; box-shadow: 0 0 0 3px rgba(37,99,235,0.1); }
+
+.badge {
+  display: inline-flex; align-items: center; gap: 0.375rem;
+  background: #EFF6FF; color: #2563EB; font-size: 0.75rem;
+  font-weight: 600; padding: 0.25rem 0.75rem; border-radius: 9999px;
+  border: 1px solid #BFDBFE;
+}
+
+/* Blog prose styles */
+.prose-article h2 {
+  font-family: 'Poppins', sans-serif; font-size: 1.75rem;
+  font-weight: 700; color: #111827; margin-top: 2.5rem; margin-bottom: 1rem;
+}
+.prose-article p { color: #4B5563; line-height: 1.85; margin-bottom: 1.25rem; font-size: 1.0625rem; }
+.prose-article ul { margin-bottom: 1.25rem; padding-left: 1.5rem; }
+.prose-article li { color: #4B5563; line-height: 1.85; margin-bottom: 0.5rem; list-style-type: disc; }
+
+/* Compatibility classes for tool components (ported from old React project) */
+.bg-surface-2 { background-color: #F9FAFB; }
+.bg-surface-3 { background-color: #F3F4F6; }
+.border-surface-3 { border-color: #E5E7EB; }
+.text-gray-soft { color: #6B7280; }
+.text-white { color: white; } /* Restore default behavior */
+
+/* Contextual fix for legacy components that expect dark backgrounds */
+.bg-surface-2 .text-white:not([class*="bg-"]), 
+.bg-surface-3 .text-white:not([class*="bg-"]) { 
+    color: #111827 !important; 
+}
+.result-area { background-color: #F0FDF4; border: 1px solid #BBF7D0; border-radius: 1rem; padding: 1.5rem; }
+.btn-cta {
+  display: inline-flex; align-items: center; gap: 0.5rem;
+  background: #10B981; color: white; font-weight: 700;
+  padding: 0.75rem 2rem; border-radius: 0.75rem; border: none; cursor: pointer;
+  transition: all 0.2s;
+}
+.btn-cta:hover { background: #059669; }
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+.skeleton-glare { animation: glare 1.5s ease-in-out infinite; }
+@keyframes glare { 0% { transform: translateX(-100%); } 100% { transform: translateX(100%); } }
+

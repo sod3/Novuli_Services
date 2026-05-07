@@ -1,0 +1,50 @@
+
+> novuliservices-next@0.1.0 build
+> next build
+
+⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of C:\Users\Hp\Desktop\NovuliSurvices\novuliservices\package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * C:\Users\Hp\Desktop\NovuliSurvices\novuliservices\novuliservices-next\package-lock.json
+
+▲ Next.js 16.2.4 (Turbopack)
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 12.5s
+  Running TypeScript ...
+  Finished TypeScript in 724ms ...
+  Collecting page data using 11 workers ...
+  Generating static pages using 11 workers (0/42) ...
+  Generating static pages using 11 workers (10/42) 
+  Generating static pages using 11 workers (20/42) 
+  Generating static pages using 11 workers (31/42) 
+✓ Generating static pages using 11 workers (42/42) in 1794ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ○ /about
+├ ○ /blog
+├ ● /blog/[slug]
+│ ├ /blog/ats-resume-guide-2026
+│ ├ /blog/core-web-vitals-seo-guide
+│ ├ /blog/image-compression-complete-guide
+│ └ [+9 more paths]
+├ ○ /contact
+├ ○ /privacy
+├ ○ /terms
+├ ○ /tools
+├ ● /tools/[toolId]
+│ ├ /tools/image-to-pdf
+│ ├ /tools/pdf-to-word
+│ ├ /tools/word-to-pdf
+│ └ [+17 more paths]
+└ ○ /tools/seo-audit
+
+
+○  (Static)  prerendered as static content
+●  (SSG)     prerendered as static HTML (uses generateStaticParams)
+
