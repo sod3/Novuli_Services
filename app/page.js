@@ -13,9 +13,9 @@ import { tools, featuredTools, searchTools } from "@/data/tools";
 import { blogPosts } from "@/data/blog";
 
 const stats = [
-  { value: "100%", label: "Private Storage" },
-  { value: "17+", label: "Premium Tools" },
-  { value: "0ms", label: "Server Delays" },
+  { value: "Private", label: "Secure Storage" },
+  { value: "Premium", label: "Professional Tools" },
+  { value: "Instant", label: "Server Response" },
 ];
 
 const categories = [
@@ -114,7 +114,7 @@ export default function Homepage() {
                   type="text"
                   value={searchQuery}
                   onChange={(e) => setSearchQuery(e.target.value)}
-                  placeholder="Search 17+ professional tools..."
+                  placeholder="Search professional tools..."
                   className="w-full bg-white border-2 border-border-light text-primary placeholder-gray-400 rounded-[2.5rem] pl-20 pr-8 py-6 text-xl focus:outline-none focus:border-accent focus:bg-white transition-all shadow-2xl shadow-blue-900/[0.05]"
                 />
               </div>
@@ -180,7 +180,7 @@ export default function Homepage() {
                   <cat.icon size={26} style={{ color: cat.color }} />
                 </div>
                 <h3 className="text-xl font-bold text-primary mb-2">{cat.name}</h3>
-                <p className="text-secondary text-sm mb-6 font-light">{cat.count} Specialized Tools</p>
+                <p className="text-secondary text-sm mb-6 font-light">Specialized Utilities</p>
                 <div className="w-10 h-10 rounded-full bg-bg-gray flex items-center justify-center text-secondary group-hover:bg-accent group-hover:text-white transition-all">
                   <FiChevronRight />
                 </div>
@@ -212,7 +212,7 @@ export default function Homepage() {
           {!searchQuery && (
             <div className="mt-20 text-center">
               <Link href="/tools" className="bg-bg-gray text-primary border-2 border-transparent hover:border-accent hover:text-accent font-display font-bold px-12 py-5 rounded-2xl inline-flex items-center gap-3 transition-all">
-                Access All 17+ Tools <FiActivity />
+                Access All Tools <FiActivity />
               </Link>
             </div>
           )}
@@ -289,7 +289,7 @@ export default function Homepage() {
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-16">
             <h2 className="text-3xl font-display font-bold text-primary mb-4">The Web's Largest Free Directory</h2>
-            <p className="text-secondary text-lg font-light">Explore 17+ specialized utilities built for modern workflows.</p>
+            <p className="text-secondary text-lg font-light">Explore specialized utilities built for modern workflows.</p>
           </div>
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
             {tools.map(t => (
@@ -314,7 +314,7 @@ export default function Homepage() {
             <motion.div initial={{ scale: 0.9, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }}>
                <h2 className="text-5xl md:text-6xl font-display font-bold text-primary mb-8 tracking-tight">Stop overpaying for tools.</h2>
                <p className="text-secondary text-xl font-light mb-12 leading-relaxed">
-                  Join thousands of professionals using NovuliSurvices daily to automate their business tasks and drive growth. No credit cards, no subscriptions.
+                  Join professionals using NovuliSurvices daily to automate their business tasks and drive growth. No credit cards, no subscriptions.
                </p>
                <div className="flex flex-wrap justify-center gap-6">
                  <Link href="/tools" className="bg-accent text-white px-12 py-5 rounded-2x font-bold text-lg hover:bg-blue-600 shadow-xl shadow-blue-200 transition-all flex items-center gap-3">
@@ -326,7 +326,6 @@ export default function Homepage() {
                </div>
                <div className="mt-12 flex items-center justify-center gap-6">
                   <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-[0.2em]"><FiShield /> 100% Secure Processing</div>
-                  <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-[0.2em]"><FiCheckCircle /> 4.9/5 Rating</div>
                </div>
             </motion.div>
          </div>

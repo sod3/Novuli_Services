@@ -22,6 +22,7 @@ export default function Footer() {
     { label: 'Privacy Policy', href: '/privacy' },
     { label: 'Terms of Service', href: '/terms' },
     { label: 'Cookie Policy', href: '/cookie-policy' },
+    { label: 'Accuracy Disclaimer', href: '/disclaimer' },
   ];
 
   return (
@@ -36,7 +37,7 @@ export default function Footer() {
               Premium utilities for <span className="text-accent">modern growth</span>.
             </h3>
             <p className="text-secondary text-sm font-light mb-8 max-w-md">
-              Join thousands of professionals getting weekly templates, SEO secrets, and productivity boosts.
+              Join professionals getting weekly templates, SEO secrets, and productivity boosts.
             </p>
             {subscribed ? (
               <div className="bg-green-50 text-green-700 p-4 rounded-2xl border border-green-100 flex items-center gap-3">

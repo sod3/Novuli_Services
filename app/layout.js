@@ -6,7 +6,7 @@ import './globals.css';
 export const metadata = {
   metadataBase: new URL('https://novulisurvices.com'),
   title: { default: 'NovuliSurvices | Free Professional Online Tools', template: '%s | NovuliSurvices' },
-  description: 'Free professional-grade online tools for SEO, PDF conversion, image processing, resume building, and business productivity. No sign-up required. Trusted by professionals worldwide.',
+  description: 'Free professional-grade online tools for SEO, PDF conversion, image processing, resume building, and business productivity. Trusted by professionals worldwide.',
   keywords: ['free online tools', 'pdf converter', 'image to pdf', 'resume builder', 'seo audit', 'qr code generator', 'background remover', 'word to pdf'],
   authors: [{ name: 'NovuliSurvices Editorial Team' }],
   creator: 'NovuliSurvices',

@@ -16,7 +16,7 @@ export async function generateMetadata({ params }) {
   if (!tool) return { title: 'Tool Not Found' };
   
   return {
-    title: tool.seoTitle || `Free ${tool.name} Online | No Sign-Up required`,
+    title: tool.seoTitle || `Free ${tool.name} Online | Professional Utility`,
     description: tool.seoDescription || tool.description,
   };
 }
@@ -46,7 +46,7 @@ export default async function ToolPage({ params }) {
               <span className="text-blue-600">Professional Results Instantly</span>
             </h1>
             <p className="text-lg md:text-xl text-secondary max-w-3xl mx-auto leading-relaxed mb-8">
-              {tool.description} No credit card, no sign-up required. Just process your files directly in your browser.
+              {tool.description} Just process your files directly in your browser securely and instantly.
             </p>
 
             <div className="flex flex-wrap items-center justify-center gap-6 text-sm font-semibold text-secondary bg-white shadow-xl shadow-blue-50 rounded-2xl w-max mx-auto px-8 py-4 border border-border-light">
@@ -66,27 +66,7 @@ export default async function ToolPage({ params }) {
           </div>
         </section>
 
-        {/* LEAD CAPTURE SECTION */}
-        <section className="py-16 bg-blue-600 text-white border-y border-blue-700">
-          <div className="max-w-4xl mx-auto px-4 text-center">
-            <h2 className="text-3xl md:text-4xl font-black font-display mb-4">Want to save your result for later?</h2>
-            <p className="text-blue-100 text-lg mb-8 max-w-2xl mx-auto">
-              Don't lose your work. Enter your work email below and we'll securely send you a copy of your processed files.
-            </p>
-            <form className="flex flex-col sm:flex-row gap-4 justify-center max-w-lg mx-auto" action="#" method="post">
-              <input 
-                type="email" 
-                placeholder="Enter your email address" 
-                className="flex-1 px-6 py-4 rounded-xl text-primary outline-none font-medium placeholder-slate-400 border-2 border-transparent focus:border-blue-300"
-                required 
-              />
-              <button type="submit" className="px-8 py-4 bg-slate-900 text-white rounded-xl font-bold hover:bg-slate-800 transition whitespace-nowrap shadow-xl flex items-center justify-center gap-2">
-                Send Result <FiMail />
-              </button>
-            </form>
-            <p className="text-xs text-blue-200 mt-4 font-medium"><FiLock className="inline mr-1"/> 100% secure processing. No spam guaranteed.</p>
-          </div>
-        </section>
+
 
         {/* SEO CONTENT SECTION - Crawlable by AdSense immediately */}
         <section className="py-24 bg-white">

@@ -53,7 +53,7 @@ export default function Navbar() {
                 type="text" value={searchQuery}
                 onChange={(e) => { setSearchQuery(e.target.value); setShowSearch(true); }}
                 onFocus={() => setShowSearch(true)}
-                placeholder="Search 17+ tools..."
+                placeholder="Search tools..."
                 className="w-full bg-bg-gray border-2 border-transparent text-primary placeholder-gray-400 rounded-2xl pl-12 pr-4 py-2.5 text-sm focus:outline-none focus:border-accent focus:bg-white transition-all"
               />
               {showSearch && searchResults.length > 0 && (
