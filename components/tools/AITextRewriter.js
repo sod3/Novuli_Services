@@ -14,7 +14,7 @@ const faqs = [
 
 const steps = [
   { title: "Paste Your Text", desc: "Enter the content you want to rewrite or paraphrase." },
-  { title: "Choose Tone", desc: "Select a tone — professional, casual, creative, formal, etc." },
+  { title: "Choose Tone", desc: "Select a tone - professional, casual, creative, formal, etc." },
   { title: "Copy & Use", desc: "Copy the rewritten text and use it anywhere." },
 ];
 
@@ -24,9 +24,9 @@ const rewrites = {
   Professional: "This solution optimizes operational efficiency through strategic implementation of cutting-edge methodologies, enabling organizations to achieve superior outcomes while maintaining high standards of quality.",
   Casual: "This is a great way to get things done faster and better. It just works, and most people find it super easy to use right away!",
   Formal: "It is hereby established that this particular approach demonstrates considerable merit in its application, yielding favorable results consistent with established best practices.",
-  Creative: "Imagine unlocking a whole new dimension of possibility — where tasks once daunting become delightfully effortless, and results exceed every expectation.",
+  Creative: "Imagine unlocking a whole new dimension of possibility - where tasks once daunting become delightfully effortless, and results exceed every expectation.",
   Simple: "This is a good tool. It helps you do things faster. It is easy to use and it works well.",
-  Persuasive: "Don't miss out — this is the smartest, most effective solution available today. Thousands already trust it to deliver real, measurable results. You should too.",
+  Persuasive: "Don't miss out - this is the smartest, most effective solution available today. Thousands already trust it to deliver real, measurable results. You should too.",
 };
 
 export default function AITextRewriter() {

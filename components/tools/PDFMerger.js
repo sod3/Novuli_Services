@@ -7,14 +7,14 @@ import { motion, AnimatePresence } from "framer-motion";
 
 const faqs = [
   { question: "How many PDFs can I merge at once?", answer: "Free plan: up to 5 files. Pro plan: unlimited files with no size cap." },
-  { question: "Is the original PDF quality preserved?", answer: "Yes, our merger maintains 100% original quality — no compression." },
+  { question: "Is the original PDF quality preserved?", answer: "Yes, our merger maintains 100% original quality - no compression." },
   { question: "Is my PDF secure?", answer: "100% safe. Files are processed in your browser and never uploaded anywhere." },
   { question: "Can I reorder the PDFs before merging?", answer: "Yes! Drag to reorder or use the up/down arrows to set your preferred page order." },
 ];
 
 const steps = [
   { title: "Upload PDFs", desc: "Select or drag multiple PDF files you want to combine." },
-  { title: "Reorder Files", desc: "Drag files to your preferred order — that's how they'll appear in the final PDF." },
+  { title: "Reorder Files", desc: "Drag files to your preferred order - that's how they'll appear in the final PDF." },
   { title: "Merge & Download", desc: "Click merge and download your combined PDF instantly." },
 ];
 

@@ -34,7 +34,6 @@ export default function Contact() {
           {/* Info Side */}
           <div className="space-y-12">
             {[
-              { icon: FiMail, title: "Email Support", value: "solutions@novuli.com", desc: "Replies within 24 hours" },
               { icon: FiMessageSquare, title: "Product Feedback", value: "Submit a Suggestion", desc: "We love hearing your ideas" },
               { icon: FiMapPin, title: "Company", value: "Remote-first", desc: "Team across 3 continents" },
             ].map((c, i) => (

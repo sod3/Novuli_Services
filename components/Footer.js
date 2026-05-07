@@ -21,6 +21,7 @@ export default function Footer() {
     { label: 'Contact', href: '/contact' },
     { label: 'Privacy Policy', href: '/privacy' },
     { label: 'Terms of Service', href: '/terms' },
+    { label: 'Cookie Policy', href: '/cookie-policy' },
   ];
 
   return (
@@ -29,13 +30,13 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 mb-16">
           <div className="lg:col-span-5">
             <Link href="/" className="flex items-center gap-2 mb-6">
-              <img src="/favicon.png" alt="NovuliServices" className="w-16 h-16 object-contain" />
+              <img src="/novlogo.png" alt="NovuliSurvices" className="w-16 h-16 object-contain" />
             </Link>
             <h3 className="text-2xl font-display font-bold text-primary mb-4 max-w-sm">
               Premium utilities for <span className="text-accent">modern growth</span>.
             </h3>
             <p className="text-secondary text-sm font-light mb-8 max-w-md">
-              Join 50,000+ professionals getting weekly templates, SEO secrets, and productivity boosts.
+              Join thousands of professionals getting weekly templates, SEO secrets, and productivity boosts.
             </p>
             {subscribed ? (
               <div className="bg-green-50 text-green-700 p-4 rounded-2xl border border-green-100 flex items-center gap-3">
@@ -73,20 +74,12 @@ export default function Footer() {
                 ))}
               </ul>
             </div>
-            <div>
-              <h4 className="text-primary font-bold text-xs uppercase tracking-widest mb-6">Contact Us</h4>
-              <ul className="space-y-3 text-sm text-secondary">
-                <li><a href="mailto:support@novuliservices.com" className="hover:text-accent transition-colors flex items-center gap-2"><FiMail size={14} /> support@novuliservices.com</a></li>
-                <li className="font-light">Mon–Fri, 9am–6pm GMT</li>
-                <li className="font-light">Response within 24 hours</li>
-              </ul>
-            </div>
           </div>
         </div>
 
         <div className="border-t border-border-light pt-8 flex flex-col md:flex-row items-center justify-between gap-4 text-secondary text-xs font-bold uppercase tracking-widest">
           <div className="flex items-center gap-4">
-            <p>© 2026 NovuliServices. All rights reserved.</p>
+            <p>© 2026 NovuliSurvices. All rights reserved.</p>
             <Link href="/privacy" className="hover:text-primary">Privacy</Link>
             <Link href="/terms" className="hover:text-primary">Terms</Link>
           </div>

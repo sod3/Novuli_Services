@@ -41,7 +41,7 @@ export default function Navbar() {
         <div className="flex items-center justify-between h-14">
           <Link href="/" className="flex items-center gap-2 group flex-shrink-0">
             <div className="w-24 h-16 group-hover:scale-105 transition-all">
-              <img src="/logo.png" alt="NovuliServices Logo" className="w-full h-full object-contain" />
+              <img src="/novlogo.png" alt="NovuliServices Logo" className="w-full h-full object-contain" />
             </div>
           </Link>
 

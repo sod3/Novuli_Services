@@ -36,8 +36,7 @@ export default function ToolCard({ tool }) {
 
         <div className="mt-auto pt-6 w-full flex items-center justify-between border-t border-border-light/50">
           <div className="flex flex-col">
-            <span className="text-[10px] font-bold uppercase tracking-widest text-secondary">Installs</span>
-            <span className="text-primary font-bold text-sm">{tool.usageCount}</span>
+            <span className="text-[10px] font-bold uppercase tracking-widest text-secondary">Category</span><span className="text-primary font-bold text-sm">{tool.category}</span>
           </div>
           <div className="w-8 h-8 rounded-full bg-blue-50 flex items-center justify-center group-hover:bg-accent transition-colors">
             <FiArrowRight size={14} className="text-accent group-hover:text-white transition-colors" />

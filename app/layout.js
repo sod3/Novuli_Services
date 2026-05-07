@@ -5,29 +5,34 @@ import './globals.css';
 
 export const metadata = {
   metadataBase: new URL('https://novulisurvices.com'),
-  title: { default: 'NovuliServices | Free Professional Online Tools', template: '%s | NovuliServices' },
+  title: { default: 'NovuliSurvices | Free Professional Online Tools', template: '%s | NovuliSurvices' },
   description: 'Free professional-grade online tools for SEO, PDF conversion, image processing, resume building, and business productivity. No sign-up required. Trusted by professionals worldwide.',
   keywords: ['free online tools', 'pdf converter', 'image to pdf', 'resume builder', 'seo audit', 'qr code generator', 'background remover', 'word to pdf'],
-  authors: [{ name: 'NovuliServices Editorial Team' }],
-  creator: 'NovuliServices',
-  publisher: 'NovuliServices',
+  authors: [{ name: 'NovuliSurvices Editorial Team' }],
+  creator: 'NovuliSurvices',
+  publisher: 'NovuliSurvices',
   robots: { index: true, follow: true, googleBot: { index: true, follow: true } },
   openGraph: {
     type: 'website',
     locale: 'en_US',
     url: 'https://novulisurvices.com',
-    siteName: 'NovuliServices',
-    title: 'NovuliServices | Free Professional Online Tools',
+    siteName: 'NovuliSurvices',
+    title: 'NovuliSurvices | Free Professional Online Tools',
     description: 'Free professional-grade tools for SEO, PDF, image processing, resume building, and more.',
-    images: [{ url: '/logo.png', width: 512, height: 512, alt: 'NovuliServices Logo' }],
+    images: [{ url: '/novlogo.png', width: 512, height: 512, alt: 'NovuliSurvices Logo' }],
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'NovuliServices | Free Professional Online Tools',
+    title: 'NovuliSurvices | Free Professional Online Tools',
     description: 'Free professional-grade tools for SEO, PDF, image processing, and more.',
-    images: ['/logo.png'],
+    images: ['/novlogo.png'],
   },
   verification: { google: 'TVfPdlID6TO5rQLDBKi2l3fWpOCLtB7i43cFbk8HiuE' },
+  icons: {
+    icon: '/novlogo.png',
+    shortcut: '/novlogo.png',
+    apple: '/novlogo.png',
+  },
 };
 
 export default function RootLayout({ children }) {

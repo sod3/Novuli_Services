@@ -9,13 +9,13 @@ import {
 import ToolCard from "@/components/ToolCard";
 import TestimonialCard from "@/components/TestimonialCard";
 
-import { tools, featuredTools, searchTools, testimonials } from "@/data/tools";
+import { tools, featuredTools, searchTools } from "@/data/tools";
 import { blogPosts } from "@/data/blog";
 
 const stats = [
-  { value: "50K+", label: "Professional Users" },
+  { value: "100%", label: "Private Storage" },
   { value: "17+", label: "Premium Tools" },
-  { value: "1.2M", label: "Results Generated" },
+  { value: "0ms", label: "Server Delays" },
 ];
 
 const categories = [
@@ -48,7 +48,7 @@ export default function Homepage() {
       {
         "@type": "WebSite",
         "@id": "https://novulisurvices.com/#website",
-        "name": "NovuliServices",
+        "name": "NovuliSurvices",
         "url": "https://novulisurvices.com",
         "potentialAction": {
           "@type": "SearchAction",
@@ -59,11 +59,11 @@ export default function Homepage() {
       {
         "@type": "Organization",
         "@id": "https://novulisurvices.com/#organization",
-        "name": "NovuliServices",
+        "name": "NovuliSurvices",
         "url": "https://novulisurvices.com",
         "logo": {
           "@type": "ImageObject",
-          "url": "https://novulisurvices.com/logo.png"
+          "url": "https://novulisurvices.com/novlogo.png"
         },
         "description": "Premium free online utility suite providing completely secure PDF conversion, image manipulation, and SEO analytical tools directly in the browser.",
       }
@@ -308,28 +308,13 @@ export default function Homepage() {
         </div>
       </section>
 
-      {/* TESTIMONIALS SECTION */}
-      <section className="py-24 bg-bg-gray/30 border-y border-border-light overflow-hidden">
-        <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-20">
-            <h2 className="text-4xl font-display font-bold text-primary mb-4">Trusted by SEO Experts</h2>
-            <p className="text-secondary text-xl font-light">Why agencies choose NovuliServices over paid alternatives.</p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            {testimonials.map((t, i) => (
-              <TestimonialCard key={i} testimonial={t} index={i} />
-            ))}
-          </div>
-        </div>
-      </section>
-
       {/* FINAL CTA */}
       <section className="py-32 bg-white relative">
          <div className="max-w-4xl mx-auto px-4 text-center">
             <motion.div initial={{ scale: 0.9, opacity: 0 }} whileInView={{ scale: 1, opacity: 1 }} viewport={{ once: true }}>
                <h2 className="text-5xl md:text-6xl font-display font-bold text-primary mb-8 tracking-tight">Stop overpaying for tools.</h2>
                <p className="text-secondary text-xl font-light mb-12 leading-relaxed">
-                  Join 50,000+ professionals using NovuliServices daily to automate their business tasks and drive growth. No credit cards, no subscriptions.
+                  Join thousands of professionals using NovuliSurvices daily to automate their business tasks and drive growth. No credit cards, no subscriptions.
                </p>
                <div className="flex flex-wrap justify-center gap-6">
                  <Link href="/tools" className="bg-accent text-white px-12 py-5 rounded-2x font-bold text-lg hover:bg-blue-600 shadow-xl shadow-blue-200 transition-all flex items-center gap-3">
@@ -340,7 +325,7 @@ export default function Homepage() {
                  </Link>
                </div>
                <div className="mt-12 flex items-center justify-center gap-6">
-                  <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-[0.2em]"><FiDownload /> 1.2M Downloads</div>
+                  <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-[0.2em]"><FiShield /> 100% Secure Processing</div>
                   <div className="flex items-center gap-2 text-xs font-bold text-secondary uppercase tracking-[0.2em]"><FiCheckCircle /> 4.9/5 Rating</div>
                </div>
             </motion.div>
@@ -390,17 +375,17 @@ export default function Homepage() {
       {/* SEO PILLAR CONTENT (Crucial for root domain indexation depth) */}
       <section className="py-24 bg-bg-gray/20 border-t border-border-light">
          <div className="max-w-5xl mx-auto px-4 prose prose-blue prose-lg text-secondary">
-            <h2 className="text-3xl font-bold text-primary mb-6">Why Use NovuliServices For Your Daily Workflows?</h2>
+            <h2 className="text-3xl font-bold text-primary mb-6">Why We Built NovuliSurvices For You</h2>
             <p>
-               In the modern remote-first environment, relying on offline, un-updated software is a tactical error. We built NovuliServices as a comprehensive, strictly <strong>free online tool directory</strong> to streamline professional tasks directly in your web browser. Whether you need a secure <strong>Image to PDF converter</strong>, an accurate <strong>Word to PDF lock</strong>, or an aggressive <strong>AI Background Remover</strong>, our platform processes it instantly via client-side architecture.
+               Let's be real-downloading bulky offline software just to convert a PDF or compress an image is frustrating. We built NovuliSurvices because we were tired of tools that force you into expensive subscriptions or bombard you with ads just to get a simple job done. Whether you need a secure <strong>Image to PDF converter</strong>, an accurate <strong>Word to PDF lock</strong>, or an instant <strong>AI Background Remover</strong>, our platform executes it right in your browser.
             </p>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Uncompromising Security & Client-Side Privacy</h3>
+            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">You Shouldn't Have To Trade Privacy For Convenience</h3>
             <p>
-               Unlike traditional software-as-a-service providers that hoard your documents, NovuliServices is built on cutting-edge <strong>WASM (WebAssembly)</strong> and native web APIs. When you convert highly sensitive contracts or generate custom <strong>QR Codes</strong>, the data never leaves your computer. We believe that a high-converting, professional <strong>Resume Builder</strong> shouldn't require you to surrender your personal data to an unknown server. Processing is kept explicitly local.
+               We take your privacy seriously because we know how important it is. Unlike traditional cloud services that hoard your documents on their servers, NovuliSurvices is built on cutting-edge <strong>WASM (WebAssembly)</strong> technology. This means when you upload a sensitive contract or a private resume, the data never actually leaves your computer. We built it this way so you don't have to worry about third-party data tracking. What happens on your machine stays on your machine.
             </p>
-            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Actionable SEO Audits & Analytics</h3>
+            <h3 className="text-2xl font-bold text-primary mt-8 mb-4">Enterprise SEO Tools, Without The Enterprise Price Tag</h3>
             <p>
-               Beyond basic utility file conversions, our platform acts as a command center for digital marketers. Run our <strong>Free Technical SEO Audit Tool</strong> to identify fatal ranking errors, or leverage the <strong>Backlink Checker</strong> to reverse engineer competitor link profiles. Pairing these analytics with our internal <strong>Keyword Research Tool</strong> guarantees that whether you are an agency or an independent creator, you hold the exact same analytical capability as expensive, enterprise-level subscriptions.
+               We didn't just stop at file conversions. We wanted to build a true command center for digital marketers and developers. If you run our <strong>Free Technical SEO Audit Tool</strong>, you'll immediately see the ranking errors holding you back. Pair that with our <strong>Backlink Checker</strong> and <strong>Keyword Research Tool</strong>, and you've got the exact same analytical power as the expensive, enterprise-level subscriptions-except ours is totally free, built by a team that actually uses them.
             </p>
          </div>
       </section>

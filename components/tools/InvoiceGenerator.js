@@ -166,7 +166,7 @@ export default function InvoiceGenerator() {
               </tr></thead>
               <tbody>{items.map((item, i) => (
                 <tr key={i} className="border-b border-gray-100">
-                  <td className="py-2 px-3">{item.desc || "—"}</td>
+                  <td className="py-2 px-3">{item.desc || "-"}</td>
                   <td className="py-2 px-3 text-center">{item.qty}</td>
                   <td className="py-2 px-3 text-right">{currency} {item.rate.toFixed(2)}</td>
                   <td className="py-2 px-3 text-right">{currency} {(item.qty * item.rate).toFixed(2)}</td>

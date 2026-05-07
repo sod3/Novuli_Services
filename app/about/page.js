@@ -2,11 +2,11 @@ import React from "react";
 import Link from 'next/link';
 import { FiZap, FiTarget, FiHeart, FiGlobe, FiArrowRight } from "react-icons/fi";
 import TestimonialCard from "@/components/TestimonialCard";
-import { testimonials } from "@/data/tools";
+
 
 export const metadata = {
-  title: 'About Us | NovuliServices Story & Mission',
-  description: 'Learn about NovuliServices — the team behind professional-grade free online tools trusted by thousands worldwide.',
+  title: 'About Us | NovuliSurvices Story & Mission',
+  description: 'Learn about NovuliSurvices - the team behind professional-grade free online tools trusted by thousands worldwide.',
 };
 
 const values = [
@@ -29,7 +29,7 @@ export default function About() {
               <span className="text-accent underline decoration-blue-100 underline-offset-8">Modern Professional</span>
             </h1>
             <p className="text-secondary text-xl font-light leading-relaxed max-w-2xl mx-auto">
-              NovuliServices started with a simple belief: professional-grade tools should be fast, free, and accessible to everyone without friction.
+              NovuliSurvices started with a simple belief: professional-grade tools should be fast, free, and accessible to everyone without friction.
             </p>
           </div>
         </div>
@@ -45,7 +45,7 @@ export default function About() {
                 Online tools are often bloated with ads, require credit cards for "free trials", or have complex interfaces that slow you down.
               </p>
               <p className="text-secondary text-lg font-light leading-relaxed">
-                We built NovuliServices to provide a suite of clean, specialized utilities that do exactly what you need — nothing more, nothing less.
+                We built NovuliSurvices to provide a suite of clean, specialized utilities that do exactly what you need - nothing more, nothing less.
               </p>
             </div>
             <div className="bg-white p-8 rounded-3xl border border-border-light shadow-xl shadow-blue-900/[0.03]">
@@ -54,7 +54,7 @@ export default function About() {
                 <span className="text-xs font-bold uppercase tracking-widest text-primary">Live Stats</span>
               </div>
               <div className="space-y-6">
-                {[["50K+", "Daily Professionals"], ["1.2M", "Results Generated"], ["100%", "Private & Secure"]].map(([v, l], i) => (
+                {[["100%", "Private Built"], ["0", "Data Exported"], ["100%", "Local Processing"]].map(([v, l], i) => (
                   <div key={i} className="flex items-center justify-between border-b border-gray-50 pb-4 last:border-0 last:pb-0">
                     <span className="text-secondary font-medium">{l}</span>
                     <span className="text-2xl font-display font-bold text-primary">{v}</span>
@@ -80,16 +80,6 @@ export default function About() {
                 <p className="text-secondary font-light leading-relaxed">{v.desc}</p>
               </div>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonials */}
-      <section className="py-24 bg-bg-gray border-t border-border-light">
-        <div className="max-w-5xl mx-auto px-4">
-          <h2 className="text-3xl font-display font-bold text-center text-primary mb-16">Loved globally by teams at</h2>
-          <div className="grid grid-cols-1 sm:grid-cols-3 gap-8">
-            {testimonials.slice(0, 3).map((t, i) => <TestimonialCard key={i} testimonial={t} index={i} />)}
           </div>
         </div>
       </section>

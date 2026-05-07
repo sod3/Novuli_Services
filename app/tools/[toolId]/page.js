@@ -112,6 +112,14 @@ export default async function ToolPage({ params }) {
                 </ul>
               </div>
               
+                {tool.useCases && (
+                  <div className="mt-8 pt-8 border-t border-border-light">
+                    <h4 className="text-xl font-bold text-primary mb-3">Enterprise & Professional Usage</h4>
+                    <p className="text-secondary leading-relaxed font-light">{tool.useCases}</p>
+                  </div>
+                )}
+
+              
               <div className="bg-bg-gray p-8 rounded-[2rem] border border-border-light">
                  <h3 className="text-2xl font-bold text-primary mb-8">How to use this tool:</h3>
                  <div className="space-y-6">

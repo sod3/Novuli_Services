@@ -13,8 +13,8 @@ export const tools = [
     tags: ["image", "pdf", "converter", "jpg to pdf", "png to pdf"],
     color: "#7C3AED",
     featured: true,
-    usageCount: "1.2M+",
-    rating: 4.9,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Maintains flawless image quality without aggressive compression.",
       "No file size limits or strict upload barriers.",
@@ -47,8 +47,8 @@ export const tools = [
     tags: ["pdf", "word", "converter", "edit pdf", "doc"],
     color: "#2563EB",
     featured: true,
-    usageCount: "850K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Perfectly reconstructs tables, images, and fonts.",
       "Instant processing without tedious waits or email lists.",
@@ -79,8 +79,8 @@ export const tools = [
     tags: ["word", "pdf", "converter", "doc to pdf", "docx"],
     color: "#1E40AF",
     featured: false,
-    usageCount: "620K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Secures formatting against unauthorized changes.",
       "Perfect for generating clean, universally readable contracts.",
@@ -111,8 +111,8 @@ export const tools = [
     tags: ["background", "remover", "ai", "transparency", "png"],
     color: "#EC4899",
     featured: true,
-    usageCount: "2.1M+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Ultra-precise detection around fine details like fur and hair.",
       "Completely automated, saving hours of manual editing.",
@@ -143,8 +143,8 @@ export const tools = [
     tags: ["qr", "code", "generator", "link", "wifi"],
     color: "#111827",
     featured: true,
-    usageCount: "1.5M+",
-    rating: 4.9,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Generate static codes that never expire.",
       "Fully customizable aesthetic (colors, contrast).",
@@ -175,8 +175,8 @@ export const tools = [
     tags: ["resume", "cv", "builder", "job search", "career"],
     color: "#0D9488",
     featured: true,
-    usageCount: "940K+",
-    rating: 4.9,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "ATS-Optimized Formatting to beat robotic parsing systems.",
       "Instantly toggle between beautifully designed premium templates.",
@@ -208,8 +208,8 @@ export const tools = [
     tags: ["keyword", "seo", "search volume", "trends", "planner"],
     color: "#F59E0B",
     featured: false,
-    usageCount: "310K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Uncovers untargeted long-tail variations.",
       "Helps understand primary search intent effectively.",
@@ -240,8 +240,8 @@ export const tools = [
     tags: ["backlinks", "seo", "domain authority", "link building"],
     color: "#4F46E5",
     featured: false,
-    usageCount: "250K+",
-    rating: 4.6,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Provides actionable referring domain intelligence.",
       "Helps audit your own site for negative SEO attacks.",
@@ -272,8 +272,8 @@ export const tools = [
     tags: ["page speed", "performance", "web vitals", "load time"],
     color: "#EF4444",
     featured: false,
-    usageCount: "430K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Diagnoses strict Core Web Vital failures.",
       "Pinpoints bloated images and blocking scripts.",
@@ -304,8 +304,8 @@ export const tools = [
     tags: ["ai writer", "content", "copywriting", "blogging"],
     color: "#8B5CF6",
     featured: false,
-    usageCount: "720K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Defeats writer's block instantly.",
       "Creates natural-sounding, persuasive copy variations.",
@@ -336,8 +336,8 @@ export const tools = [
     tags: ["meta tags", "seo", "title tag", "description", "snippet"],
     color: "#6366F1",
     featured: false,
-    usageCount: "190K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Calculates precise pixel lengths to avoid Google truncation.",
       "Generates clean copy-paste HTML for any website.",
@@ -368,8 +368,8 @@ export const tools = [
     tags: ["email signature", "branding", "business email", "pro signature"],
     color: "#F59E0B",
     featured: false,
-    usageCount: "210K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Builds robust HTML tables that don't break in mobile clients.",
       "Supports integrated brand imagery and headshots.",
@@ -400,8 +400,8 @@ export const tools = [
     tags: ["invoice", "billing", "payment", "taxes", "business"],
     color: "#D97706",
     featured: false,
-    usageCount: "380K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Calculates itemized taxes and totals mathematically error-free.",
       "Extremely fast to deploy on-the-fly for client requests.",
@@ -432,8 +432,8 @@ export const tools = [
     tags: ["forms", "surveys", "contact form", "lead magnet"],
     color: "#6D28D9",
     featured: false,
-    usageCount: "150K+",
-    rating: 4.6,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Drag-and-drop simple form elements.",
       "Generates clean semantic HTML and CSS code.",
@@ -463,8 +463,8 @@ export const tools = [
     tags: ["compress", "image optimizer", "size reducer", "web speed"],
     color: "#059669",
     featured: false,
-    usageCount: "820K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Drastically improves website load times and SEO scores.",
       "Batch processing allows compressing whole folders at once.",
@@ -495,8 +495,8 @@ export const tools = [
     tags: ["word count", "character count", "writing", "editor"],
     color: "#374151",
     featured: false,
-    usageCount: "910K+",
-    rating: 4.9,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Lightning-fast counting technology works without reloading.",
       "Strips HTML tags to give accurate raw text counts.",
@@ -526,8 +526,8 @@ export const tools = [
     tags: ["readability", "sentiment", "text analysis", "seo proofing"],
     color: "#111827",
     featured: false,
-    usageCount: "280K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Simplifies dense paragraphs to lower bounce rates.",
       "Ensures your tone matches your brand guidelines.",
@@ -557,8 +557,8 @@ export const tools = [
     tags: ["seo audit", "technical seo", "site audit", "score"],
     color: "#2563EB",
     featured: true,
-    usageCount: "130K+",
-    rating: 4.9,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Simulates how Googlebot views your page architecture.",
       "Produces an easy-to-understand aggregate health score.",
@@ -580,7 +580,7 @@ export const tools = [
     name: "PDF Merger",
     seoTitle: "Free PDF Merger Online | Combine Multiple PDFs Instantly",
     seoDescription: "Merge multiple PDF files into one document for free. No sign-up, no watermarks. Reorder pages, combine files, and download instantly.",
-    deepDescription: "Juggling multiple PDF documents is inefficient. Our PDF Merger lets you combine any number of separate files into a single, organized, downloadable PDF with one click — preserving 100% of the original quality.",
+    deepDescription: "Juggling multiple PDF documents is inefficient. Our PDF Merger lets you combine any number of separate files into a single, organized, downloadable PDF with one click - preserving 100% of the original quality.",
     slug: "/tools/pdf-merger",
     icon: "FiLayers",
     description: "Combine multiple PDF files into one seamless document.",
@@ -589,12 +589,12 @@ export const tools = [
     tags: ["pdf", "merge", "combine", "join pdf", "document"],
     color: "#DC2626",
     featured: false,
-    usageCount: "340K+",
-    rating: 4.8,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Combines unlimited PDFs in correct order.",
       "100% original quality maintained after merge.",
-      "Client-side processing — your files never leave your device.",
+      "Client-side processing - your files never leave your device.",
       "Drag-and-drop reordering before final merge."
     ],
     howTo: [
@@ -621,13 +621,13 @@ export const tools = [
     tags: ["ai rewriter", "paraphrase", "text spinner", "content rewriting"],
     color: "#7C3AED",
     featured: false,
-    usageCount: "290K+",
-    rating: 4.7,
+
+    useCases: "We see freelancers and creative agencies use this constantly to meet tight client deadlines. If you are managing dozens of assets or documents, the last thing you want is a messy formatting error or a slow cloud upload. We built this specific tool to run entirely inside your browser-which means zero server delays, totally private processing, and no need to hand over your email address just to get a result. It is essentially a privacy-first, pro-grade utility that you can bookmark and trust every single time you need to hit export.",
     benefits: [
       "Multiple tone options: casual, professional, academic.",
       "Preserves original meaning while improving clarity.",
       "Eliminates repetitive phrasing and passive voice.",
-      "Fully private — no text stored on our servers."
+      "Fully private - no text stored on our servers."
     ],
     howTo: [
       { title: "Paste Your Text", desc: "Enter the content you wish to rewrite in the input area." },
@@ -672,26 +672,4 @@ export const featuredTools = tools.filter((t) => t.featured);
 
 export const categories = ["All", ...new Set(tools.map(t => t.category))];
 
-export const testimonials = [
-  {
-    author: "Sarah Johnson",
-    role: "Freelance Designer",
-    avatar: "SJ",
-    content: "NovuliServices saved me hours every week. The QR tool and PDF merger are absolute game changers.",
-    rating: 5,
-  },
-  {
-    author: "Marcus Chen",
-    role: "Marketing Manager",
-    avatar: "MC",
-    content: "The SEO analyzer gave me insights I couldn't find anywhere else for free. Incredible tool.",
-    rating: 5,
-  },
-  {
-    author: "Priya Sharma",
-    role: "Agency Owner",
-    avatar: "PS",
-    content: "We use the SEO Audit and Invoice generator daily for our clients. Super professional results!",
-    rating: 5,
-  }
-];
+
