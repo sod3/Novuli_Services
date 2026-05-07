@@ -1133,7 +1133,7 @@ export const tools = [
   seoDescription: "Create accurate, professional invoices in seconds. Automatically calculate taxes, download as PDF, and send to clients without any setup or software installation.",
   
   deepDescription: `
-Managing payments efficiently is one of the biggest challenges for freelancers, small business owners, and agencies—especially when juggling multiple clients and deadlines. Delays in invoicing or formatting mistakes can directly impact cash flow and professional credibility.
+Managing payments efficiently is one of the biggest challenges for freelancers, small business owners, and agencies-especially when juggling multiple clients and deadlines. Delays in invoicing or formatting mistakes can directly impact cash flow and professional credibility.
 
 This Invoice Generator is designed to solve that problem with simplicity and accuracy. It helps users create clean, structured, and fully itemized invoices without needing accounting knowledge or complex software.
 
@@ -1167,7 +1167,7 @@ Because everything runs locally in the browser, users do not depend on slow serv
 
   benefits: [
     "Automatically calculates totals, taxes, and subtotals with high accuracy",
-    "No login or setup required—start creating invoices instantly",
+    "No login or setup required-start creating invoices instantly",
     "Generates clean, professional PDF invoices suitable for client use",
     "Browser-based processing ensures better privacy and faster performance",
     "Works seamlessly for freelancers, agencies, and small businesses"

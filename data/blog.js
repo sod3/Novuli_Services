@@ -2,7 +2,7 @@ export const blogPosts = [
 {
   id: "ats-resume-guide-2026",
   slug: "/blog/ats-resume-guide-2026",
-  title: "Why Most Resumes Never Reach Recruiters — And How to Fix Yours in 2026",
+  title: "Why Most Resumes Never Reach Recruiters - And How to Fix Yours in 2026",
   excerpt: "More than 70% of resumes are filtered out before a recruiter sees them. Learn how modern Applicant Tracking Systems work and how to build a resume that passes automated screening while still impressing hiring managers.",
   date: "April 28, 2026",
   readTime: "10 min read",
@@ -10,7 +10,7 @@ export const blogPosts = [
   image: "https://images.unsplash.com/photo-1586281380349-632531db7ed4?w=800&auto=format&fit=crop&q=80",
   content: `<h2>Most Resume Rejections Happen Before a Human Ever Looks at Them</h2>
 <p>A lot of job seekers believe they are being ignored because they lack experience or qualifications. In reality, many resumes never even make it to the recruiter’s screen.</p>
-<p>Large companies now receive thousands of applications for a single position. To manage this volume, employers rely on Applicant Tracking Systems (ATS) — software designed to organize, scan, and rank resumes before a hiring manager reviews them.</p>
+<p>Large companies now receive thousands of applications for a single position. To manage this volume, employers rely on Applicant Tracking Systems (ATS) - software designed to organize, scan, and rank resumes before a hiring manager reviews them.</p>
 <p>According to research from <strong>Jobscan</strong> and hiring industry reports, more than 70% of resumes are filtered out during the initial screening stage. In some industries, especially technology and remote work, the percentage can be even higher.</p>
 <p>That means your resume is no longer just competing against other applicants. It is competing against software rules, keyword filters, formatting limitations, and automated ranking systems.</p>
 <p>After reviewing hiring workflows used by startups, recruitment agencies, and enterprise HR teams, one pattern becomes clear: highly qualified candidates are often rejected because their resumes are difficult for ATS software to read.</p>
@@ -22,7 +22,7 @@ export const blogPosts = [
 <li>Matches your skills against the job description</li>
 <li>Ranks applications based on relevance</li>
 </ul>
-<p>If the system cannot properly read your file, your score drops immediately — even if you are qualified for the role.</p>
+<p>If the system cannot properly read your file, your score drops immediately - even if you are qualified for the role.</p>
 <p>For example, a recruiter searching for candidates with “React.js,” “Node.js,” and “REST APIs” may never see your application if your resume uses vague phrases like “modern frontend technologies” instead of the exact technical terms.</p>
 <p>This is one of the biggest reasons experienced professionals still struggle to receive interview calls.</p>
 <h2>Why Fancy Resume Templates Often Hurt Your Chances</h2>
@@ -38,7 +38,7 @@ export const blogPosts = [
 </ul>
 <p>One recruiting consultant shared that nearly half of rejected resumes they manually reviewed contained formatting issues rather than qualification problems.</p>
 <p>Even skill bars create problems.</p>
-<p>A visual graphic showing “JavaScript — 90%” may look professional to a human, but ATS software often cannot interpret graphics or percentages embedded inside design elements. In many cases, the system simply ignores them.</p>
+<p>A visual graphic showing “JavaScript - 90%” may look professional to a human, but ATS software often cannot interpret graphics or percentages embedded inside design elements. In many cases, the system simply ignores them.</p>
 <p>The safest strategy is surprisingly simple: prioritize readability over design.</p>
 <h2>The Resume Format Recruiters Prefer in 2026</h2>
 <p>Recruiters consistently favor resumes that are clean, organized, and easy to scan quickly.</p>
@@ -78,7 +78,7 @@ export const blogPosts = [
 <li>Machine Learning</li>
 <li>AWS</li>
 </ul>
-<p>your resume should naturally include those exact terms — but only if you genuinely have experience with them.</p>
+<p>your resume should naturally include those exact terms - but only if you genuinely have experience with them.</p>
 <p>One practical strategy used by experienced recruiters is comparing the job description against the resume line by line.</p>
 <p>If your wording differs too much from the employer’s terminology, your application may rank lower despite having equivalent skills.</p>
 <p>This does not mean stuffing random keywords everywhere. Recruiters can spot keyword manipulation immediately.</p>
@@ -129,7 +129,7 @@ export const blogPosts = [
 <li>Clear achievements</li>
 </ul>
 <p>This is why strong structure matters so much.</p>
-<p>If critical information is difficult to find, recruiters move on quickly — especially when reviewing hundreds of applications daily.</p>
+<p>If critical information is difficult to find, recruiters move on quickly - especially when reviewing hundreds of applications daily.</p>
 <h2>Final Thoughts</h2>
 <p>The hiring process has changed dramatically over the past decade.</p>
 <p>Today, a strong resume must satisfy both automated systems and human recruiters.</p>
@@ -167,9 +167,9 @@ export const blogPosts = [
 <p>Core Web Vitals are a set of performance metrics Google uses to evaluate how users experience your website.</p>
 <p>As of 2026, the three most important metrics are:</p>
 <ul>
-<li><strong>LCP (Largest Contentful Paint)</strong> — loading speed</li>
-<li><strong>CLS (Cumulative Layout Shift)</strong> — visual stability</li>
-<li><strong>INP (Interaction to Next Paint)</strong> — responsiveness</li>
+<li><strong>LCP (Largest Contentful Paint)</strong> - loading speed</li>
+<li><strong>CLS (Cumulative Layout Shift)</strong> - visual stability</li>
+<li><strong>INP (Interaction to Next Paint)</strong> - responsiveness</li>
 </ul>
 <p>These metrics are based on actual user behavior collected through Chrome browser data, not just laboratory testing tools.</p>
 <p>That means your website may look fast on your own high-end computer while still performing poorly for visitors using older phones or slow mobile connections.</p>
@@ -346,7 +346,7 @@ export const blogPosts = [
 <p>Image compression reduces file size while attempting to preserve visual quality.</p>
 <p>The goal is simple:</p>
 <p><strong>Deliver smaller files that load faster without making images look noticeably worse.</strong></p>
-<p>When websites send smaller image files to visitors, pages render faster, consume less bandwidth, and feel more responsive — especially on mobile devices.</p>
+<p>When websites send smaller image files to visitors, pages render faster, consume less bandwidth, and feel more responsive - especially on mobile devices.</p>
 <p>Compression also improves:</p>
 <ul>
 <li>Core Web Vitals scores</li>
@@ -389,7 +389,7 @@ export const blogPosts = [
 </ul>
 <p>JPEG compression is one of the most common examples of lossy optimization.</p>
 <p>At reasonable quality settings, file size can shrink by 70% to 90% with minimal visible quality loss.</p>
-<p>In practical testing, many users cannot visually distinguish between a properly compressed 75% quality JPEG and the original full-resolution version — especially on mobile screens.</p>
+<p>In practical testing, many users cannot visually distinguish between a properly compressed 75% quality JPEG and the original full-resolution version - especially on mobile screens.</p>
 <h2>Choosing the Right Image Format</h2>
 <p>Selecting the correct image format has a major impact on performance.</p>
 <p>Different formats are designed for different use cases.</p>
@@ -493,7 +493,7 @@ export const blogPosts = [
 <p>Image compression is one of the simplest and most cost-effective ways to improve website performance.</p>
 <p>Unlike complex backend optimizations, reducing image weight often produces immediate measurable improvements in speed, SEO, and user engagement.</p>
 <p>For websites that depend on search traffic, advertising revenue, or conversions, optimization is no longer optional.</p>
-<p>Modern users expect websites to load instantly — especially on mobile devices.</p>
+<p>Modern users expect websites to load instantly - especially on mobile devices.</p>
 <p>Smaller images help make that possible.</p>
 <hr />
 <p><strong>Sources & References</strong></p>
@@ -574,7 +574,7 @@ export const blogPosts = [
 
 <h2>The Biggest Weakness of DOCX Files</h2>
 
-<p>DOCX files are highly editable — but that flexibility creates reliability issues.</p>
+<p>DOCX files are highly editable - but that flexibility creates reliability issues.</p>
 
 <p>A document that looks perfectly aligned on one computer may appear completely different on another.</p>
 
@@ -791,7 +791,7 @@ export const blogPosts = [
   image: "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200&auto=format&fit=crop&q=80",
   content: `
 
-<h2>QR Codes Are No Longer a Trend — They’re Part of Everyday Business</h2>
+<h2>QR Codes Are No Longer a Trend - They’re Part of Everyday Business</h2>
 
 <p>A few years ago, QR codes were often treated like a marketing gimmick. Many companies placed them on posters, packaging, and advertisements without thinking about the actual customer experience. Most people ignored them because scanning required third-party apps, slow loading pages, or confusing landing screens.</p>
 
@@ -1138,9 +1138,9 @@ https://www.example.com
 <p>The three most important metrics are:</p>
 
 <ul>
-  <li><strong>Largest Contentful Paint (LCP)</strong> — loading speed</li>
-  <li><strong>Interaction to Next Paint (INP)</strong> — responsiveness</li>
-  <li><strong>Cumulative Layout Shift (CLS)</strong> — visual stability</li>
+  <li><strong>Largest Contentful Paint (LCP)</strong> - loading speed</li>
+  <li><strong>Interaction to Next Paint (INP)</strong> - responsiveness</li>
+  <li><strong>Cumulative Layout Shift (CLS)</strong> - visual stability</li>
 </ul>
 
 <p>Slow websites consistently experience:</p>
@@ -1298,7 +1298,7 @@ https://www.example.com
   image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=1200&auto=format&fit=crop&q=80",
   content: `
 
-<h2>Backlinks Still Matter — But the Rules Have Changed</h2>
+<h2>Backlinks Still Matter - But the Rules Have Changed</h2>
 
 <p>Every few years, someone claims that backlinks are no longer important for SEO.</p>
 
@@ -1545,7 +1545,7 @@ https://www.example.com
 
 <p>Businesses looking for sustainable SEO growth should stop treating backlinks as shortcuts and start viewing them as signals of reputation.</p>
 
-<p>In modern search engines, authority is earned slowly — but the long-term rewards are significantly more stable.</p>
+<p>In modern search engines, authority is earned slowly - but the long-term rewards are significantly more stable.</p>
 
 <h2>Sources and References</h2>
 
@@ -1561,7 +1561,7 @@ https://www.example.com
   id: "invoice-guide-freelancers",
   slug: "/blog/invoicing-guide-for-freelancers",
   title: "The Complete Invoicing Guide for Freelancers: How to Get Paid Faster and Build Client Trust",
-  excerpt: "Professional invoicing is more than just requesting payment — it directly affects cash flow, client relationships, and business credibility. Learn how freelancers can create better invoices that reduce delays and improve professionalism.",
+  excerpt: "Professional invoicing is more than just requesting payment - it directly affects cash flow, client relationships, and business credibility. Learn how freelancers can create better invoices that reduce delays and improve professionalism.",
   date: "May 4, 2026",
   readTime: "9 min read",
   category: "Business",
@@ -1750,7 +1750,7 @@ https://www.example.com
     <li>Provide accurate and trustworthy information</li>
   </ul>
 
-  <p>Keyword stuffing — the practice of repeating keywords excessively — should always be avoided. Modern search engines prioritize natural, valuable content written for humans rather than manipulation.</p>
+  <p>Keyword stuffing - the practice of repeating keywords excessively - should always be avoided. Modern search engines prioritize natural, valuable content written for humans rather than manipulation.</p>
 
   <h2>Common Keyword Research Mistakes</h2>
 
