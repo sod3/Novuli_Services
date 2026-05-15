@@ -11,7 +11,6 @@ export default function Terms() {
       <div className="max-w-3xl mx-auto px-4">
         <header className="mb-12 pb-8 border-b border-border-light text-center">
           <h1 className="text-4xl md:text-5xl font-display font-bold text-primary mb-4 tracking-tight">Terms of Service</h1>
-          <p className="text-secondary text-sm font-medium uppercase tracking-widest leading-relaxed">Last updated: April 2026</p>
         </header>
         
         <div className="space-y-12">
