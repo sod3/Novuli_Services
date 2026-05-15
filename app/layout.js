@@ -29,11 +29,6 @@ export const metadata = {
     images: ['/novlogo.png'],
   },
   verification: { google: 'TVfPdlID6TO5rQLDBKi2l3fWpOCLtB7i43cFbk8HiuE' },
-  icons: {
-    icon: '/novlogo.png',
-    shortcut: '/novlogo.png',
-    apple: '/novlogo.png',
-  },
 };
 
 export default function RootLayout({ children }) {
@@ -44,14 +39,13 @@ export default function RootLayout({ children }) {
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
         <link rel="sitemap" type="application/xml" href="/sitemap.xml" />
-      </head>
-      <body className="min-h-screen bg-white text-primary font-sans flex flex-col">
-        <Script
+        <script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6561467807135376"
           crossOrigin="anonymous"
-          strategy="afterInteractive"
-        />
+        ></script>
+      </head>
+      <body className="min-h-screen bg-white text-primary font-sans flex flex-col" suppressHydrationWarning>
         <Navbar />
         <main className="flex-grow">
           {children}
